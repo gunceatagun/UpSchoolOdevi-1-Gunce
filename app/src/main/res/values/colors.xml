@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="berin">#b3fcf3</color>
+    <color name="berin_rengi">#71a8a1</color>
+    <color name="berin_rengi_2">#3e5c58</color>
+</resources>

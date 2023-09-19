@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_nav_graph"
+    app:startDestination="@id/girisFragment">
+
+    <fragment
+        android:id="@+id/girisFragment"
+        android:name="com.example.navigationodevi2.GirisFragment"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_giris_to_kisiselBilgiler"
+            app:destination="@id/kisiselBilgilerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kisiselBilgilerFragment"
+        android:name="com.example.navigationodevi2.KisiselBilgilerFragment"
+        android:label="fragment_kisisel_bilgiler"
+        tools:layout="@layout/fragment_kisisel_bilgiler" >
+        <action
+            android:id="@+id/action_kisiselBilgiler_to_custom"
+            app:destination="@id/customFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customFragment"
+        android:name="com.example.navigationodevi2.CustomFragment"
+        android:label="fragment_custom"
+        tools:layout="@layout/fragment_custom" >
+        <action
+            android:id="@+id/action_custom_to_sonuclar"
+            app:destination="@id/sonuclarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sonuclarFragment"
+        android:name="com.example.navigationodevi2.SonuclarFragment"
+        android:label="fragment_sonuclar"
+        tools:layout="@layout/fragment_sonuclar" />
+</navigation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Kedileri sever misiniz"
+        android:textColor="@color/berin_rengi_2"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:checked="false"
+        android:textOff="Hayır"
+        android:textOn="Evet"
+        android:textColor="@color/berin_rengi_2"
+        android:background="@color/berin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Kedilere alerjiniz var mı?"
+        android:textColor="@color/berin_rengi_2"
+        android:textSize="16dp"
+        android:textStyle="italic|bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:checked="false"
+        android:textOff="Hayır"
+        android:textOn="Evet"
+        android:textColor="@color/berin_rengi_2"
+        android:background="@color/berin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Kedi sahiplenmek ister misiniz?"
+        android:textColor="@color/berin_rengi_2"
+        android:textSize="16dp"
+        android:textStyle="italic|bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOff="Hayır"
+        android:textOn="Evet"
+        android:textColor="@color/berin_rengi_2"
+        android:background="@color/berin"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/berin_rengi"
+        android:text="Devam et"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
