@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -28,16 +28,16 @@
         android:textColor="@color/berin_rengi_2" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextTelefon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:hint="Telefon"
-        android:inputType="text"
-        android:textColor="@color/berin_rengi_2" />
+        android:textColor="@color/berin_rengi_2"
+        android:inputType="number"/>
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editTextSehir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
