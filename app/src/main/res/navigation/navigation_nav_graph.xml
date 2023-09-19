@@ -9,7 +9,7 @@
         android:id="@+id/girisFragment"
         android:name="com.example.navigationodevi2.GirisFragment"
         android:label="fragment_giris"
-        tools:layout="@layout/fragment_giris" >
+        tools:layout="@layout/fragment_giris">
         <action
             android:id="@+id/action_giris_to_kisiselBilgiler"
             app:destination="@id/kisiselBilgilerFragment" />
@@ -18,16 +18,19 @@
         android:id="@+id/kisiselBilgilerFragment"
         android:name="com.example.navigationodevi2.KisiselBilgilerFragment"
         android:label="fragment_kisisel_bilgiler"
-        tools:layout="@layout/fragment_kisisel_bilgiler" >
+        tools:layout="@layout/fragment_kisisel_bilgiler">
         <action
             android:id="@+id/action_kisiselBilgiler_to_custom"
             app:destination="@id/customFragment" />
+        <argument
+            android:name="nameArgument"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/customFragment"
         android:name="com.example.navigationodevi2.CustomFragment"
         android:label="fragment_custom"
-        tools:layout="@layout/fragment_custom" >
+        tools:layout="@layout/fragment_custom">
         <action
             android:id="@+id/action_custom_to_sonuclar"
             app:destination="@id/sonuclarFragment" />
@@ -36,9 +39,10 @@
         android:id="@+id/sonuclarFragment"
         android:name="com.example.navigationodevi2.SonuclarFragment"
         android:label="fragment_sonuclar"
-        tools:layout="@layout/fragment_sonuclar" >
+        tools:layout="@layout/fragment_sonuclar">
         <action
             android:id="@+id/action_sonuclar_to_giris"
             app:destination="@id/girisFragment" />
     </fragment>
+
 </navigation>
