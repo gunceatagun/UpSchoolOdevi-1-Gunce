@@ -27,7 +27,7 @@
         android:textColor="@color/berin_rengi_2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_giris_devam_et"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/berin_rengi"

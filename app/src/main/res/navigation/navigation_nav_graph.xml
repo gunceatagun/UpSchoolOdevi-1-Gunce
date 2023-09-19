@@ -36,5 +36,9 @@
         android:id="@+id/sonuclarFragment"
         android:name="com.example.navigationodevi2.SonuclarFragment"
         android:label="fragment_sonuclar"
-        tools:layout="@layout/fragment_sonuclar" />
+        tools:layout="@layout/fragment_sonuclar" >
+        <action
+            android:id="@+id/action_sonuclar_to_giris"
+            app:destination="@id/girisFragment" />
+    </fragment>
 </navigation>
